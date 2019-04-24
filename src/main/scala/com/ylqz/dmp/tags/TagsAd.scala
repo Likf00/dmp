@@ -7,7 +7,7 @@ import org.apache.spark.sql.Row
   * @ClassName TagsAd.scala
   * @author yimting
   * @version 1.0.0
-  * @Description 广告标签
+  * @Description 广告标签，数据标签化 1，3，
   * @createTime 2019年04月24日 11:22:00
   */
 object TagsAd extends Tags {
@@ -37,8 +37,6 @@ object TagsAd extends Tags {
     //获得值类型 需要根据字段类型去获取
     val channel = row.getAs[Int]("")
     list :+= ("CN"+channel,1)
-
-
 
     list
   }

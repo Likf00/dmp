@@ -7,7 +7,7 @@ import org.apache.spark.sql.Row
   * @ClassName TagUtils.scala
   * @author yimting
   * @version 1.0.0
-  * @Description TODO
+  * @Description 商圈标签
   * @createTime 2019年04月23日 20:55:00
   */
 object TagUtils {

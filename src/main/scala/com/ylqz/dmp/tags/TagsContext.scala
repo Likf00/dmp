@@ -54,7 +54,6 @@ object TagsContext {
     //读取 Parquet 信息
     val df: DataFrame = sparkSession.read.parquet(inputPath)
 
-    df.filter(TagUtils)
 
   }
 }
