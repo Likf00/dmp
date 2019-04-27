@@ -65,6 +65,5 @@ fabric.properties
 dmp.iml
 pom.xml
 spark-warehouse/
-src/main/java/
 src/test/java/
 target/
