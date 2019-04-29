@@ -17,11 +17,11 @@ object BaiduLBSHandler {
     * @param lat  维度
     */
   def paraseBusinessTagBy(lng:String,lat:String) ={
-    var business = ""
-    val requestParams = requestParams(lng,lat)
-    val requestURL = "http://api.map.baidu.com/geocoder/v2/?"+requestParams
-    //使用HttpClient 模拟浏览器发送请求
-    val httpClient = new HttpClient()
+//    var business = ""
+//    val requestParams = requestParams(lng,lat)
+//    val requestURL = "http://api.map.baidu.com/geocoder/v2/?"+requestParams
+//    //使用HttpClient 模拟浏览器发送请求
+
     ""
   }
 }
