@@ -8,8 +8,6 @@
 object Test {
 
   def main(args: Array[String]): Unit = {
-    val database = "dmp"
-    println  (s"jdbc:mysql://192.168.168.14:3306/${database}?createDatabaseIfNotExist&user=root&password=root&characterEncoding=gbk");
 
   }
 
