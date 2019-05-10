@@ -33,8 +33,10 @@ public class RedisUtil {
             // 设置最大连接数
             config.setMaxTotal(500);
             // 控制一个pool最多有多少个状态为idle(空闲的)的jedis实例。
+            // 最大空闲数
             config.setMaxIdle(5);
             // 表示当borrow(引入)一个jedis实例时，最大的等待时间，如果超过等待时间，则直接抛出JedisConnectionException；
+            // 超时等待
             config.setMaxWaitMillis(1000 * 100);
             // 在borrow一个jedis实例时，是否提前进行validate操作；如果为true，则得到的jedis实例均是可用的；
             config.setTestOnBorrow(true);

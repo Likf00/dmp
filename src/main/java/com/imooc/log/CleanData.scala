@@ -16,7 +16,6 @@ object CleanData {
     access.take(10).foreach(println)
 
 
-
     spark.stop()
   }
 }
